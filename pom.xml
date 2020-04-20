@@ -137,14 +137,14 @@
     <profiles>
         <profile>
             <id>dev</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
             <properties>
                 <profile.env>dev</profile.env>
             </properties>
         </profile>
         <profile>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
             <id>test</id>
             <properties>
                 <profile.env>test</profile.env>
