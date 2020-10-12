@@ -1,5 +1,6 @@
 package com.jenkins.service.Impl;
 
+import com.github.pagehelper.PageHelper;
 import com.jenkins.dao.UserMapper;
 import com.jenkins.entity.User;
 import com.jenkins.service.UserService;
@@ -15,6 +16,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User select(Long id) {
+        PageHelper.startPage(1,10);
         return userMapper.selectByPrimaryKey(id);
     }
 }
