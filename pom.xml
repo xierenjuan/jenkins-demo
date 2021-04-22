@@ -40,7 +40,7 @@
         <commons.io.vesion>2.4</commons.io.vesion>
         <fastjson.vesion>1.2.47</fastjson.vesion>
         <mybatis.spring.boot.starter.vesion>1.3.1</mybatis.spring.boot.starter.vesion>
-        <mybatis.vesion>3.4.5</mybatis.vesion>
+        <mybatis.vesion>3.5.6</mybatis.vesion>
         <mybatis.spring.vesion>1.3.1</mybatis.spring.vesion>
         <swagger.vesion>2.7.0</swagger.vesion>
         <maven.compiler.plugin.version>3.1</maven.compiler.plugin.version>
