@@ -11,6 +11,9 @@ import springfox.documentation.service.Contact;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 
+/**
+ * swagger3访问地址：http://localhost:9999/swagger-ui/index.html
+ */
 @Configuration
 public class Swagger3Config {
     @Bean
